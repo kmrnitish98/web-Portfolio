@@ -1,10 +1,11 @@
 import React from 'react'
 //import '../'
+import mypic from '../../public/n-pass.jpg'
 export function Home() {
   return (
     <div className='min-h-142 max-height-screen flex justify-center items-center h-60 bgimg'>
        <div className='text-center'> 
-          <img src="../../public/n-pass.jpg" alt="head.jpg" className='w-32 h-32 rounded-full mx-auto object-cover'/>
+          <img src={mypic} alt="niti.jpg" className='w-32 h-32 rounded-full mx-auto object-cover'/>
           <h1 className='text-3xl font-bold mt-2 text-white'>Hello, i'm Nitish Kumar</h1>
           <p className='text-xl font-semibold font-serif text-gray-500 p-5'>Full Stack Web Developer</p>
           <div className='flex justify-center gap-4 mt-4 text-2xl text-white'>
