@@ -5,13 +5,13 @@ import TextField from '@mui/material/TextField'
 export function Contact() {
   return (
     <div>
-       <div className='grid grid-cols-2 mt-9 '>
-          <div className='flex justify-center items-center  mt-lg-3'>
-                <form action="" className='bg-gray-100 rounded-2xl p-5'>
+       <div className='grid grid-cols-1 md:grid-cols-2 mt-9 gap-6 px-4'>
+          <div className='flex justify-center items-center  mt-lg-3 '>
+                <form action="" className='bg-gray-100 rounded-2xl p-5 shadow-xl/30'>
                    <h2 className='text-center font-black text-2xl'>Contact</h2>
                   <ul>
                     <dt className='font-bold'>Name</dt>
-                    <dd><input type="text" name='Name' placeholder='Enter Name' className='border border-gray-400 py-2 px-7'/></dd>
+                    <dd><input type="text" name='Name' placeholder='Enter Name' className='border border-gray-400 py-2 px-7 '/></dd>
                     <dt className='mt-4 font-bold'>Email</dt>
                     <dd><input type="email" name='email' placeholder='Enter Email Address' className='border border-gray-400 py-2 px-7'/></dd>
                     <dt className='mt-4 font-bold'>Subject</dt>

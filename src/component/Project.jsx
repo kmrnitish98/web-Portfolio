@@ -3,7 +3,7 @@ import React from 'react'
  
 export function Project() {
   return (
-    <div>
+    <div >
       <h2 className='text-center font-black text-2xl my-4'>My Project</h2>
       <div className='flex justify-between m-3'>
         <div className='flex-wrap w-2xl m-2' >

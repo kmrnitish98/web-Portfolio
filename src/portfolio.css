@@ -1,1 +1,5 @@
 @import "tailwindcss";
+.bgimg{
+    background-image:url('../public/space-1182.gif');
+    background-size:cover;
+}
