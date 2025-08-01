@@ -5,7 +5,7 @@ import TextField from '@mui/material/TextField'
 export function Contact() {
   return (
     <div>
-       <div className='grid grid-cols-1 md:grid-cols-2 mt-9 gap-6 px-4'>
+       <div className='grid grid-cols-1 md:grid-cols-2 mt-35 mb-10 gap-6 px-4'>
           <div className='flex justify-center items-center  mt-lg-3 '>
                 <form action="https://formsubmit.co/kmrnitish98@gmail.com" method='POST' className='bg-gray-100 rounded-2xl p-5 shadow-xl/30'>
                    <input type="hidden" name='_captcha' value={false}/>
@@ -23,8 +23,8 @@ export function Contact() {
                   <button type='submit' className='bi bi-send bg-gray-400 hover:bg-gray-200 font-bold py-2 px-3 mt-4 rounded-4xl'> Send Message</button>
                 </form>
           </div>
-          <div className='mt-30'>
-              <div>
+          <div className=' flex justify-center items-center mb-10'>
+              <div className=''>
                 <div> 
                   <h1 className='bi bi-geo-alt font-bold text-xl text-gray-500'> Location</h1>
                   <h2 className='ms-7'> Hydrabad,India</h2>

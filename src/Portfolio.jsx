@@ -4,6 +4,7 @@ import About from "./component/About"
 import Project from "./component/Project"
 import Contact from "./component/Contact"
 import Navbar from "./nav/Navbar"
+import Footer from "./nav/footer"
 export function Portfolio() {
   return (
     <div>
@@ -15,6 +16,7 @@ export function Portfolio() {
                 <Route path='project' Component={Project}></Route>
                 <Route path='contact' Component={Contact}></Route>
             </Routes>
+            <Footer/>
        </BrowserRouter>
     </div>
   )

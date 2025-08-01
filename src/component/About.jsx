@@ -1,12 +1,12 @@
 import React from 'react'
-import about from '../../public/aboutMe.jpg'
+import work from '../../public/aboutMe.jpg'
 export function About() {
   return (
     <div className='min-x-screen '>
       
-      <div className='flex flex-col md:flex-row items-center justify-center mx-5 gap-6'>
+      <div className='flex flex-col md:flex-row items-center justify-center mx-5 gap-6 mt-20'>
         <div className='mt-16'>
-         <img src={about} alt="AbouteMe.jpg" className='w-350 h-120' />
+         <img src={work} alt="AbouteMe.jpg" className='w-350 h-120' />
         </div>
         <div className='mt-7'>
           <h1 className='font-bold text-3xl text-gray-500 mb-3'>Aboute </h1>
