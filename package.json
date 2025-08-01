@@ -8,9 +8,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "homepage": "https://kmrnitish98.github.io/web-Portfolio/"
-
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

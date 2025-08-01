@@ -1,5 +1,12 @@
 @import "tailwindcss";
 .bgimg{
-    background-image:url('../public/space-1182.gif');
+    background-image:url('../public/bg.jpg');
     background-size:cover;
+}
+#navhead{
+    color: bisque;
+    box-shadow:5px 10px 10px rgb(202, 172, 2);
+}
+#icon:hover{
+    box-shadow:2px 5px 20px pink;
 }

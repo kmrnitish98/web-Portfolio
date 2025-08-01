@@ -7,7 +7,8 @@ export function Contact() {
     <div>
        <div className='grid grid-cols-1 md:grid-cols-2 mt-9 gap-6 px-4'>
           <div className='flex justify-center items-center  mt-lg-3 '>
-                <form action="" className='bg-gray-100 rounded-2xl p-5 shadow-xl/30'>
+                <form action="https://formsubmit.co/kmrnitish98@gmail.com" method='POST' className='bg-gray-100 rounded-2xl p-5 shadow-xl/30'>
+                   <input type="hidden" name='_captcha' value={false}/>
                    <h2 className='text-center font-black text-2xl'>Contact</h2>
                   <ul>
                     <dt className='font-bold'>Name</dt>
@@ -34,7 +35,7 @@ export function Contact() {
                 </div>
                 <div className=''>
                   <h1 className='bi bi-telephone font-bold text-xl text-gray-500 '> Mobile Phone Number</h1>
-                  <h2 className='ms-6'> +91 6362788291</h2>
+                  <h2 className='ms-6'> +91 7541989350</h2>
                 </div>
               </div>
           </div>

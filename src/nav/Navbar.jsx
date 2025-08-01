@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
    const [menuOpen,setMenuOpen]=useState(false);
   return (
     <div>
-        <nav className='w-full z-20  bg-gray-200 '>
+        <nav className='w-full z-20  bg-yellow-400 z-index z-20 ' id='navhead'>
            <div className='max-w-7xl flex  items-center justify-around mx-auto p-4'>
               <NavLink to='/' className='font-black text-3xl ms-1'>
                <span className='text-gray-500'>Port</span>
