@@ -7,15 +7,17 @@ import Navbar from "./nav/Navbar"
 import Footer from "./nav/footer"
 export function Portfolio() {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
        <BrowserRouter>
             <Navbar/>
-            <Routes>
+            <section className="flex-1">
+              <Routes>
                 <Route path='' Component={Home}></Route>
                 <Route path='about' Component={About}></Route>
                 <Route path='project' Component={Project}></Route>
                 <Route path='contact' Component={Contact}></Route>
-            </Routes>
+              </Routes>
+            </section>
             <Footer/>
        </BrowserRouter>
     </div>

@@ -8,6 +8,7 @@ export function Contact() {
        <div className='grid grid-cols-1 md:grid-cols-2 mt-35 mb-10 gap-6 px-4'>
           <div className='flex justify-center items-center  mt-lg-3 '>
                 <form action="https://formsubmit.co/kmrnitish98@gmail.com" method='POST' className='bg-gray-100 rounded-2xl p-5 shadow-xl/30'>
+                   <input type="hidden" name="_next" value="https://kmrnitish98.github.io/web-Portfolio//thanks.html" />
                    <input type="hidden" name='_captcha' value={false}/>
                    <h2 className='text-center font-black text-2xl'>Contact</h2>
                   <ul>
